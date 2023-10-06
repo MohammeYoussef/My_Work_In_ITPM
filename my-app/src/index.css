@@ -171,6 +171,23 @@ select {
     border-radius: 5px;
 }
 
+.form_in_form input[type='text'] {
+    border: 1px solid #59c89b;
+}
+
+.form_in_form input[type='text']:focus {
+    outline: 1px solid #59c89b;
+}
+
+.form_in_form input[type='number'] {
+    border: 1px solid #59c89b;
+}
+
+.form_in_form input[type='number']:focus {
+    outline: 1px solid #59c89b;
+}
+
+
 .form_in_form input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -178,14 +195,13 @@ select {
     display: inline-block;
 }
 
-/* select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%23ccc' stroke-width='1.5'/%3E%3C/svg>");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-} */
+.form_in_form input[type="radio"] {
+    accent-color: #59c89b;
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
 
 
 .form_in_form button[type="submit"] {
@@ -197,9 +213,9 @@ select {
     border-radius: 7px;
 }
 
-.form_in_form input[type="submit"]:hover {
-    background-color: #333;
-}
+/* .form_in_form button[type="submit"]:hover {
+    background-color: red;
+} */
 
 .search_icon {
     margin-right: 10px;
@@ -208,6 +224,7 @@ select {
 .form_in_form label {
     display: inline-block;
     margin-bottom: 10px;
+
 }
 
 .container_of_form_popularlisting {

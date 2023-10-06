@@ -63,8 +63,8 @@ export default function PopularListing(props) {
         return (
             lowercaseItemName.includes(lowercaseInputValue) &&
             (item.condition === props.condition || props.condition === '') &&
-            // item.make === props.make &&
-            // item.model === props.model &&
+            (item.make === props.make || props.make === '') &&
+            (item.model === props.model || props.model === '') &&
             (item.type === props.type || props.type === '') &&
             (item.year === props.year || props.year === '') &&
             (item.mileage >= props.mileageMin || props.mileageMin === '') &&

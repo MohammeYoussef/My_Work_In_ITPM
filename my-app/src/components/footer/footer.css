@@ -122,7 +122,7 @@
 }
 
 .form-control_in_touch:focus {
-    border: none;
+    outline: none;
 
 }
 
