@@ -8,6 +8,7 @@ import Body from "./components/footer/body";
 import Footer from "./components/footer/footer";
 import ScrollToTop from "./components/footer/scrolltotop";
 import Services from "./components/services";
+import Dashboard from "./components/dashboard";
 
 
 export default function App() {
@@ -18,16 +19,17 @@ export default function App() {
         <>
 
 
-            <div className="container_of_form_popularlisting">
+            {/* <div className="container_of_form_popularlisting">
 
-                <Form />
+            <Form />
 
 
             </div>
             <Footer />
-            <ScrollToTop />
+            <ScrollToTop /> */}
 
-            {/* <Services /> */}
+
+            <Dashboard />
         </>
 
 
