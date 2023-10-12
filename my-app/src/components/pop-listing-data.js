@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default [
     {
         img: require('../images/popular-listing/pop-car-1.jpg'),
